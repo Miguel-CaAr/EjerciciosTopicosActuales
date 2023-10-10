@@ -1,13 +1,8 @@
+//EJERCICIO 1
+
 const n = [1, 2, 33, 12, 5];
-const arregloFilter = [];
-
-n.filter((numero) => {
-  if (numero >= 5){
-    arregloFilter.push(numero);
-  }
-});
-
-arregloFilter.forEach((numero) => console.log(numero))
+const array = n.filter((n) => n >= 5);
+array.forEach((n) => console.log(n))
 
 //EJERCICIO 2
 
